@@ -1,45 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    color: #222;
-    font-family: 'Montserrat';
-    font-weight: 300;
-}
-
-.wrapper{
-    width: 1280px;
-    margin: 50px auto;
-}
-
-header .logo{
+.header_logo{
     font-weight: 600;
     font-size: 20px;
 }
 
-.nav{
-    float: right;
-    list-style: none;
-}
-
-.nav li{
-    display: inline;
-    margin-left: 20px;
-    cursor: pointer;
-    font-weight: 300;
-    transition: opacity 500ms ease;
-}
-
-.nav li:hover{
-   opacity: 0.5;
-}
-
-
-header .presentation{
+.heder_presentation{
     margin: 50px 0;
     background: url(./img/0d47c6a41c78643bda48e3e069dd0030.jpg) no-repeat;
     width: 100%;
@@ -51,7 +15,7 @@ header .presentation{
     position: relative;
 }
 
-header .presentation::after{
+.heder_presentation::after{
     content: 'Лучшие товары для ващего дома';
     position: absolute;
     top: 150px;
@@ -61,7 +25,7 @@ header .presentation::after{
     font-weight: 600;
     color: white;
 }
-header .presentation::before{
+.heder_presentation::before{
     content: 'по низким ценам';
     position: absolute;
     top: 300px;
@@ -71,8 +35,4 @@ header .presentation::before{
     font-weight: 300;
     color: rgb(255, 255, 255);
 
-}
-
-.footer{
-    text-align: center;
 }
